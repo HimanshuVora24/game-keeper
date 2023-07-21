@@ -1,0 +1,24 @@
+.search_list_item {
+    display: flex;
+    flex-direction: row; 
+    margin-bottom: 10px;
+    background-color: rgb(135, 158, 202);
+    width: 100%;
+    box-sizing: border-box;
+    height: 100px; 
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 0 25px 25px 0;
+}
+
+.game_info {
+    margin-top: 5px;
+}
+
+.game_image { 
+    margin-right: 10px;
+    border-right: 4px solid;
+    height: 92px;
+    width: 92px;
+    
+}
