@@ -5,6 +5,9 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+if (localStorage.getItem("user_list") == null) {
+  localStorage.setItem("user_list", JSON.stringify({user: "Hello", list:[]}));
+}
 root.render(<App />);
 
 /*root.render(

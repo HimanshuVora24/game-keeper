@@ -29,6 +29,7 @@ function SearchBar(props) {
         }).then((response) => {
             console.log(response.data);
             props.setSearchResults(response.data);
+            props.setCurList(1);
         }).catch((error) => {
             console.log(error);
         });
